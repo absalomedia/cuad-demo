@@ -9,7 +9,7 @@ from predict import run_prediction
 st.set_page_config(layout="wide")
 
 
-st.cache_resource(show_spinner=False, persist=True)
+st.cache_data(show_spinner=False, persist=True)
 def load_model():
     model = AutoModelForQuestionAnswering.from_pretrained('../cuad-models/roberta-base/')
     tokenizer = AutoTokenizer.from_pretrained('../cuad-models/roberta-base/', use_fast=False)
