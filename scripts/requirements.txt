@@ -1,2 +1,5 @@
 transformers
 torch
+requests
+pandas
+s3fs
