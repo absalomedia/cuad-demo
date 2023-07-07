@@ -2,3 +2,5 @@ transformers
 requests
 pandas
 s3fs
+pypdf
+docx2txt
